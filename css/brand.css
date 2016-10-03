@@ -1,0 +1,11 @@
+#brandbar{
+    background:linear-gradient( 45deg, lightblue, seagreen, lightgreen);
+    color: white;
+    margin-bottom: 20px;
+    transition: all 1s ease;
+}
+@media screen and (min-width:600px){
+    #brandbar{
+        margin-bottom: 40px;
+    }
+}
