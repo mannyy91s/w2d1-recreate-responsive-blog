@@ -19,6 +19,10 @@ body{
     width:250px;
     box-shadow: 0 8px 20px #1741BC ;
 }
+.row-top img:hover{
+    transition: all 1s ease;
+    transform: scale(1.3);
+}
 .row-top > p{
     color: white;
     font-size: 12px;
@@ -33,6 +37,10 @@ body{
     background: inherit;
     color: white;
     font-size: 20px;
+}
+button:hover{
+    transform: scale(1.2);
+    transition: all 1s ease;
 }
 .left-opacity{
     opacity: .7;
@@ -68,9 +76,17 @@ body{
     flex: 1;
     opacity: .9;
 }
+.icon-left i:hover{
+    transform: scale(2);
+    transition: all 1s ease;
+}
 .icon-right{
     flex: 1;
     opacity:.9;
+}
+.icon-right i:hover{
+    transform: scale(2);
+    transition: all 1s ease;
 }
 .icon-right a, .icon-left a{color: white;}
 .row-middle i{color: #075AFF;}
